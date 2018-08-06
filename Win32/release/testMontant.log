@@ -1,0 +1,23 @@
+﻿Build started 06/08/2018 15:31:51.
+     1>Project "\\sf0003\echange\MLE\INJECTION_MONTANT\testgals\Win32\testMontant.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Release\testMontant.lastbuildstate".
+       InitializeBuildStatus:
+         Creating ".\Release\testMontant.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I./ /I../commun /Zi /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Release\\" /Fd".\Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\commun\testMontant.c
+         testMontant.c
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Release\testMontant.exe" /INCREMENTAL:NO /NOLOGO odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Release\TestMontant.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"\\sf0003\echange\MLE\INJECTION_MONTANT\testgals\Win32\Release\TestMontant.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\Release\TestMontant.lib" /MACHINE:X86 .\Release\testMontant.obj
+         lib\galclw32.lib
+         testMontant.vcxproj -> \\sf0003\echange\MLE\INJECTION_MONTANT\testgals\Win32\.\Release\TestMontant.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:".\Release\testMontant.exe;#1" /manifest .\Release\TestMontant.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Release\testMontant.unsuccessfulbuild".
+         Touching ".\Release\testMontant.lastbuildstate".
+     1>Done Building Project "\\sf0003\echange\MLE\INJECTION_MONTANT\testgals\Win32\testMontant.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.22
